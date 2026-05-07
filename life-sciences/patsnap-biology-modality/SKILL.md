@@ -3,13 +3,15 @@ name: patsnap-biological-modality
 description: Biological sequence and modality intelligence via PatSnap MCP.
 homepage: https://open.patsnap.com/marketplace/mcp-servers/a96c9b0b-2831-4d18-a37d-286896979b8d
 metadata:
-  patsnap:
-    category: "Biology"
-    requires:
-      env: ["PATSNAP_API_KEY"]
-      mcp_endpoint: "https://connect.patsnap.com/06e741/logic-mcp?apikey=YOUR_API_KEY"
-    setup_guide: "Get your API Key at https://open.patsnap.com"
+  author: PatSnap
+  category: "Life Science"
+  version: 1.0.0
+  requires:
+    mcp_endpoint: "https://connect.patsnap.com/06e741/logic-mcp?apikey=YOUR_API_KEY"
 ---
+
+## Setup
+Get your API Key at https://open.patsnap.com
 
 # PatSnap Biology Modality
 
@@ -35,7 +37,7 @@ This skill requires the **PatSnap Biology Modality MCP server** to be configured
 Get your API key at [open.patsnap.com](https://open.patsnap.com).
 
 For the full list of available tools and input parameters, refer to the official MCP server documentation:
-[open.patsnap.com/marketplace/mcp-servers/96b4a650-d563-4fc5-860d-c99ee8cb5b1e](https://open.patsnap.com/marketplace/mcp-servers/96b4a650-d563-4fc5-860d-c99ee8cb5b1e)
+https://open.patsnap.com/marketplace/mcp-servers/a96c9b0b-2831-4d18-a37d-286896979b8d
 
 ---
 
