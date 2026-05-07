@@ -45,7 +45,7 @@ This MCP server provides specialized tools for chemical entity recognition, stru
 
 For the full list of tools, input parameters, and API specifications, please refer to the official documentation:
 
-- **MCP Server Details**: [open.patsnap.com/marketplace/mcp-servers/a96c9b0b-2831-4d18-a37d-286896979b8d](https://open.patsnap.com/marketplace/mcp-servers/a96c9b0b-2831-4d18-a37d-286896979b8d)
+- **MCP Server Details**: https://open.patsnap.com/marketplace/mcp-servers/96b4a650-d563-4fc5-860d-c99ee8cb5b1e
 - **API Documentation**: [open.patsnap.com/devportal](https://open.patsnap.com/devportal)
 
 ---
