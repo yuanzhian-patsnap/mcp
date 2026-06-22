@@ -4,46 +4,48 @@
 
 ## Product Definition
 
-A quick-read tool for understanding a patent or patent family. It brings together bibliographic data, legal status, family information, the three core technical elements, drawings, and translations of specifications, abstracts, and claims so that even users without a patent background can grasp the key points quickly. It is useful for internal communication, early screening, patent training, and client briefings. This MCP server connects AI agents to PatSnap data and workflow capabilities for the Ip-Intelligence domain.
+PatSnap Patent Briefing MCP is a Model Context Protocol server that connects AI agents to PatSnap's Patent Briefing capabilities. A quick-read tool for understanding a patent or patent family. It brings together bibliographic data, legal status, family information, the three core technical elements, drawings, and translations of specifications, abstracts, and claims so that even users without a patent background can grasp the key points quickly. It is useful for internal communication, early screening, patent training, and client briefings.
 
-## Supported Tools and Query Types
+## Quick Links
 
-- A quick-read tool for understanding a patent or patent family. It brings together bibliographic data
-- legal status
-- family information
-- the three core technical elements
-- drawings
-- translations of specifications
-- abstracts
-- claims so that even users without a patent background can grasp the key points quickly. It is useful for internal communication
+- [PatSnap](https://www.patsnap.com)
+- [PatSnap Open Platform](https://open.patsnap.com)
+- [Patent Briefing MCP](https://open.patsnap.com/marketplace/mcp-servers/patent-briefing)
 
 ## Data Sources and Coverage
 
-This MCP server is powered by PatSnap proprietary databases and official platform services. Coverage depends on the enabled PatSnap product, account permissions, and API key scope.
+Powered by PatSnap's proprietary patent database, covering 200M+ patents across 170+ jurisdictions including USPTO, EPO, WIPO, and more. Updated continuously with the latest patent publications.
 
-## MCP Config JSON
+## Supported Tools
+
+- Search and discovery — semantic, keyword, identifier, or fielded search workflows
+- Retrieval and detail — fetch complete records or supporting details when available
+- Analytics and synthesis — summarize, compare, count, or structure retrieved results
+
+## Installation
 
 ```json
 {
   "mcpServers": {
     "patent_briefing": {
-      "url": "https://connect.patsnap.com/958a46/mcp",
+      "url": "https://connect.patsnap.com/958a46/mcp?apikey=YOUR_API_KEY",
       "type": "streamableHttp"
     }
   }
 }
 ```
 
-## Simplest Usage Example
+Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
 
-1. Get a PatSnap API key from [PatSnap Open Platform](https://open.patsnap.com).
-2. Replace `$PATSNAP_API_KEY` or `YOUR_API_KEY` in the MCP config.
-3. Add the config to an MCP-compatible client.
-4. Ask a simple domain question, such as: `Search recent records related to this target, drug, company, or patent topic.`
+## Usage Example
+
+- Use Patent Briefing to analyze recent patent activity for a target technology.
+- Find relevant patents and summarize the key applicants, dates, and technical themes.
+- Compare the most important records returned by Patent Briefing.
 
 ## Related Links
 
-- Official MCP page: [https://open.patsnap.com/marketplace/mcp-servers/e54e3afc-df5c-47e9-878f-1e7bb38a7275](https://open.patsnap.com/marketplace/mcp-servers/e54e3afc-df5c-47e9-878f-1e7bb38a7275)
+- Official MCP page: [https://open.patsnap.com/marketplace/mcp-servers/patent-briefing](https://open.patsnap.com/marketplace/mcp-servers/patent-briefing)
 - PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
 - PatSnap Open Platform: [https://open.patsnap.com](https://open.patsnap.com)
 - Source repository: [https://github.com/patsnap/mcp](https://github.com/patsnap/mcp)
