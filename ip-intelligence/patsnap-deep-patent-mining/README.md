@@ -49,3 +49,11 @@ Get your API key at [PatSnap Open Platform](https://open.patsnap.com).
 - PatSnap: [https://www.patsnap.com](https://www.patsnap.com)
 - PatSnap Open Platform: [https://open.patsnap.com](https://open.patsnap.com)
 - Source repository: [https://github.com/patsnap/mcp](https://github.com/patsnap/mcp)
+
+## License
+
+MIT
+
+---
+
+Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.

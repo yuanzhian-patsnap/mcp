@@ -63,3 +63,7 @@ npx skills add patsnap/mcp/tree/main/ip-intelligence/patsnap-advanced-patent-sea
 ## License
 
 MIT
+
+---
+
+Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.

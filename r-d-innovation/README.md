@@ -53,3 +53,7 @@ In your MCP-compatible client, confirm that the added servers show as connected.
 ## License
 
 MIT
+
+---
+
+Powered by [PatSnap](https://www.patsnap.com) ? Innovate with Confidence.
