@@ -1,19 +1,19 @@
-# PatSnap R&D Innovation MCP Servers
+# PatSnap RD Innovation MCP Servers
 
-MCP servers for scientific literature discovery, journal intelligence, innovation report generation, patent value reporting, and novelty-check workflows ¡ª powered by PatSnap's proprietary R&D intelligence databases.
+MCP servers for scientific literature discovery, journal intelligence, innovation report generation, patent value reporting, and novelty-check workflows, powered by PatSnap's proprietary RD intelligence databases.
 
 ## About PatSnap
 
-PatSnap is a global innovation intelligence platform covering 200M+ patents across 170+ jurisdictions (USPTO, EPO, WIPO and more), 216M+ scientific papers, pharma records, clinical trials, and R&D data.
+PatSnap is a global innovation intelligence platform covering 200M+ patents across 170+ jurisdictions (USPTO, EPO, WIPO and more), 216M+ scientific papers, pharma records, clinical trials, and RD data.
 
-To explore PatSnap R&D data interactively, try [Eureka](https://eureka.patsnap.com) ¡ª PatSnap's AI-native R&D assistant. To access R&D data programmatically, use the MCP servers or REST API via [PatSnap Open Platform](https://open.patsnap.com).
+To explore PatSnap RD data interactively, try [Eureka](https://eureka.patsnap.com), PatSnap's AI-native RD assistant. To access RD data programmatically, use the MCP servers or REST API via [PatSnap Open Platform](https://open.patsnap.com).
 
 ## Available MCP Servers
 
 | Server | Description | Open Platform |
 | :--- | :--- | :--- |
-| **Innovation Report Generator** | Innovation, patent value, and novelty-check report generation | [Innovation Report Generator ¡ú](https://open.patsnap.com/marketplace/mcp-servers/8929e1a2-7b3b-4f9d-9bf2-2e5e29524bd3) |
-| **Scientific Literature & Journals** | Scientific literature, journal, author, institution, and citation discovery | [Scientific Literature & Journals ¡ú](https://open.patsnap.com/marketplace/mcp-servers/dcfdc2d0-9d81-4cdd-8689-b89ae98b8a50) |
+| **Innovation Report Generator** | Innovation, patent value, and novelty-check report generation | [Innovation Report Generator](https://open.patsnap.com/marketplace/mcp-servers/8929e1a2-7b3b-4f9d-9bf2-2e5e29524bd3) |
+| **Scientific Literature & Journals** | Scientific literature, journal, author, institution, and citation discovery | [Scientific Literature & Journals](https://open.patsnap.com/marketplace/mcp-servers/dcfdc2d0-9d81-4cdd-8689-b89ae98b8a50) |
 
 ## Quick Start
 
@@ -38,7 +38,7 @@ Add the following to your MCP configuration (Claude Desktop, Cursor, Windsurf, e
 
 Replace `YOUR_API_KEY` with your key from PatSnap Open Platform.
 
-Each MCP server has its own URL ¡ª see the individual README or Open Platform page for the exact endpoint.
+Each MCP server has its own URL. See the individual README or Open Platform page for the exact endpoint.
 
 ## Resources
 
@@ -53,5 +53,4 @@ MIT
 
 ---
 
-Powered by [PatSnap](https://www.patsnap.com) ¡ª Innovate with Confidence.
-
+Powered by [PatSnap](https://www.patsnap.com). Innovate with Confidence.
